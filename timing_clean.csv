@@ -1,0 +1,45 @@
+dataset,method,params,n_train,fit_seconds,predict_ms_per_1000
+australian,FCS-C,"{""s"": 1.0, ""rho"": 1.0, ""alpha_rel"": 0.1}",552,0.02006390003953129,0.04275394873558611
+australian,FCS-C (alpha=0),"{""s"": 1.0, ""rho"": 1.0}",552,0.01900580001529306,0.040580019138861396
+australian,CS-SVM,"{""s"": 10.0, ""rho"": 1.0}",552,0.01908719993662089,0.03550751674650372
+australian,SVM/LDA,"{""s"": 0.01, ""lam"": 1.0}",552,0.019141700002364814,0.042028461947389274
+australian,R-LDA,"{""shrinkage"": ""auto""}",552,0.006011200021021068,3.3456514980913936
+australian,R-LDA (Bayes cost),"{""shrinkage"": ""auto""}",552,0.004971700021997094,1.7079713659873907
+australian,LR,"{""C"": 0.1}",552,0.0035158999962732196,1.9057972721107628
+australian,CS-LR,"{""C"": 0.1, ""rho"": 0.5}",552,0.002131400047801435,1.0594199209109596
+australian,C4.5,"{""max_depth"": 5, ""min_samples_leaf"": 30}",552,0.001471600029617548,0.7978254132836625
+australian,CART,"{""max_depth"": 5, ""min_samples_leaf"": 30}",552,0.000988100073300302,0.5710137792039609
+australian,CS-C4.5,"{""max_depth"": 3, ""min_samples_leaf"": 1, ""rho"": 2.0}",552,0.0010315999388694763,0.5565217588150847
+australian,CS-CART,"{""max_depth"": 8, ""min_samples_leaf"": 10, ""rho"": 2.0}",552,0.001221099984832108,0.5760862815963186
+australian,MetaCost,"{""min_samples_leaf"": 20, ""n_bags"": 20}",552,0.024939600029028952,0.5065222216797047
+australian,CS-AdaBoost,"{""depth"": 2, ""n_estimators"": 50, ""learning_rate"": 0.5}",552,0.09961789997760206,44.58043427355047
+australian,LightGBM,"{""num_leaves"": 7, ""min_child_samples"": 20, ""learning_rate"": 0.05, ""rho"": 2.0}",552,0.0723060000455007,32.54927519330944
+german,FCS-C,"{""s"": 0.01, ""rho"": 1.0, ""alpha_rel"": 0.1}",800,0.09465710003860295,0.08400005754083395
+german,FCS-C (alpha=0),"{""s"": 0.01, ""rho"": 1.0}",800,0.10593200009316206,0.085500068962574
+german,CS-SVM,"{""s"": 10.0, ""rho"": 1.0}",800,0.11494590004440397,0.13050041161477566
+german,SVM/LDA,"{""s"": 0.01, ""lam"": 0.1}",800,0.15639849996659905,0.0825000461190939
+german,R-LDA,"{""shrinkage"": 0.5}",800,0.002419099910184741,0.8515000808984041
+german,R-LDA (Bayes cost),"{""shrinkage"": 0.5}",800,0.002477700007148087,0.9064999176189303
+german,LR,"{""C"": 0.01}",800,0.002210100064985454,0.7774995174258947
+german,CS-LR,"{""C"": 0.01, ""rho"": 0.5}",800,0.002605399931780994,0.8274998981505632
+german,C4.5,"{""max_depth"": 3, ""min_samples_leaf"": 30}",800,0.00204180006403476,0.8099997648969293
+german,CART,"{""max_depth"": 3, ""min_samples_leaf"": 30}",800,0.002177800051867962,0.727999722585082
+german,CS-C4.5,"{""max_depth"": 3, ""min_samples_leaf"": 30, ""rho"": 2.0}",800,0.0027526000048965216,1.373999984934926
+german,CS-CART,"{""max_depth"": 5, ""min_samples_leaf"": 1, ""rho"": 1.0}",800,0.004415299976244569,1.160500105470419
+german,MetaCost,"{""min_samples_leaf"": 20, ""n_bags"": 20}",800,0.06018739996943623,0.8179998258128762
+german,CS-AdaBoost,"{""depth"": 1, ""n_estimators"": 200, ""learning_rate"": 0.5}",800,0.5702535000164062,155.35400016233325
+german,LightGBM,"{""num_leaves"": 7, ""min_child_samples"": 20, ""learning_rate"": 0.05, ""rho"": 1.0}",800,0.09815730003174394,40.71849980391562
+lendingclub,FCS-C,"{""s"": 1000.0, ""rho"": 1.0, ""alpha_rel"": 0.1}",16000,1.23318099998869,0.01497499761171639
+lendingclub,FCS-C (alpha=0),"{""s"": 1000.0, ""rho"": 1.0}",16000,0.9683391998987645,0.016774982213974
+lendingclub,CS-SVM,"{""s"": 100.0, ""rho"": 1.0}",16000,0.9305365999462083,0.019849976524710655
+lendingclub,R-LDA,"{""shrinkage"": 0.2}",16000,0.007735299994237721,0.06410002242773771
+lendingclub,R-LDA (Bayes cost),"{""shrinkage"": 0.2}",16000,0.006399699952453375,0.06510000093840063
+lendingclub,LR,"{""C"": 0.01}",16000,0.018370200064964592,0.07562499376945198
+lendingclub,CS-LR,"{""C"": 0.001, ""rho"": 2.0}",16000,0.008628099923953414,0.0735249777790159
+lendingclub,C4.5,"{""max_depth"": 5, ""min_samples_leaf"": 30}",16000,0.02166259998921305,0.10140001541003585
+lendingclub,CART,"{""max_depth"": 3, ""min_samples_leaf"": 1}",16000,0.011279999976977706,0.07574999472126365
+lendingclub,CS-C4.5,"{""max_depth"": 5, ""min_samples_leaf"": 30, ""rho"": 2.0}",16000,0.02581549994647503,0.11867500143125653
+lendingclub,CS-CART,"{""max_depth"": 5, ""min_samples_leaf"": 30, ""rho"": 2.0}",16000,0.02232019999064505,0.11270001414231956
+lendingclub,MetaCost,"{""min_samples_leaf"": 50, ""n_bags"": 20}",16000,0.7076305999653414,0.12005001190118492
+lendingclub,CS-AdaBoost,"{""depth"": 1, ""n_estimators"": 200, ""learning_rate"": 0.5}",16000,2.3731699999189004,17.87067498662509
+lendingclub,LightGBM,"{""num_leaves"": 7, ""min_child_samples"": 100, ""learning_rate"": 0.05, ""rho"": 0.5}",16000,0.5971622999059036,19.91107501089573
